@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB05455325442F8D00D770A4 /* NDIWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AB05455225442F8D00D770A4 /* NDIWrapper.m */; };
+		AB05455425442F8D00D770A4 /* NDIWrapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB05455125442F8D00D770A4 /* NDIWrapper.h */; };
+		AB054575254431CA00D770A4 /* libndi_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB054571254431C900D770A4 /* libndi_ios.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB05454C25442F8D00D770A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AB05455425442F8D00D770A4 /* NDIWrapper.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB05454E25442F8D00D770A4 /* libNDIWrapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNDIWrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB05455125442F8D00D770A4 /* NDIWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDIWrapper.h; sourceTree = "<group>"; };
+		AB05455225442F8D00D770A4 /* NDIWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDIWrapper.m; sourceTree = "<group>"; };
+		AB05455F254431C900D770A4 /* Processing.NDI.compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.compat.h; sourceTree = "<group>"; };
+		AB054560254431C900D770A4 /* Processing.NDI.utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.utilities.h; sourceTree = "<group>"; };
+		AB054561254431C900D770A4 /* Processing.NDI.Recv.ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.Recv.ex.h; sourceTree = "<group>"; };
+		AB054562254431C900D770A4 /* Processing.NDI.deprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.deprecated.h; sourceTree = "<group>"; };
+		AB054563254431C900D770A4 /* Processing.NDI.Routing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.Routing.h; sourceTree = "<group>"; };
+		AB054564254431C900D770A4 /* Processing.NDI.Send.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.Send.h; sourceTree = "<group>"; };
+		AB054565254431C900D770A4 /* Processing.NDI.structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.structs.h; sourceTree = "<group>"; };
+		AB054566254431C900D770A4 /* Processing.NDI.Lib.cplusplus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.Lib.cplusplus.h; sourceTree = "<group>"; };
+		AB054567254431C900D770A4 /* Processing.NDI.FrameSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.FrameSync.h; sourceTree = "<group>"; };
+		AB054568254431C900D770A4 /* Processing.NDI.Find.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.Find.h; sourceTree = "<group>"; };
+		AB054569254431C900D770A4 /* Processing.NDI.DynamicLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.DynamicLoad.h; sourceTree = "<group>"; };
+		AB05456A254431C900D770A4 /* Processing.NDI.Recv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.Recv.h; sourceTree = "<group>"; };
+		AB05456B254431C900D770A4 /* Processing.NDI.Lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processing.NDI.Lib.h; sourceTree = "<group>"; };
+		AB054571254431C900D770A4 /* libndi_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libndi_ios.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB05454B25442F8D00D770A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB054575254431CA00D770A4 /* libndi_ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB05454525442F8D00D770A4 = {
+			isa = PBXGroup;
+			children = (
+				AB05455025442F8D00D770A4 /* NDIWrapper */,
+				AB05454F25442F8D00D770A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB05454F25442F8D00D770A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB05454E25442F8D00D770A4 /* libNDIWrapper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB05455025442F8D00D770A4 /* NDIWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				AB05455D254431C900D770A4 /* wrapper */,
+				AB05455125442F8D00D770A4 /* NDIWrapper.h */,
+				AB05455225442F8D00D770A4 /* NDIWrapper.m */,
+			);
+			path = NDIWrapper;
+			sourceTree = "<group>";
+		};
+		AB05455D254431C900D770A4 /* wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				AB054571254431C900D770A4 /* libndi_ios.a */,
+				AB05455E254431C900D770A4 /* include */,
+			);
+			path = wrapper;
+			sourceTree = "<group>";
+		};
+		AB05455E254431C900D770A4 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AB05455F254431C900D770A4 /* Processing.NDI.compat.h */,
+				AB054560254431C900D770A4 /* Processing.NDI.utilities.h */,
+				AB054561254431C900D770A4 /* Processing.NDI.Recv.ex.h */,
+				AB054562254431C900D770A4 /* Processing.NDI.deprecated.h */,
+				AB054563254431C900D770A4 /* Processing.NDI.Routing.h */,
+				AB054564254431C900D770A4 /* Processing.NDI.Send.h */,
+				AB054565254431C900D770A4 /* Processing.NDI.structs.h */,
+				AB054566254431C900D770A4 /* Processing.NDI.Lib.cplusplus.h */,
+				AB054567254431C900D770A4 /* Processing.NDI.FrameSync.h */,
+				AB054568254431C900D770A4 /* Processing.NDI.Find.h */,
+				AB054569254431C900D770A4 /* Processing.NDI.DynamicLoad.h */,
+				AB05456A254431C900D770A4 /* Processing.NDI.Recv.h */,
+				AB05456B254431C900D770A4 /* Processing.NDI.Lib.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB05454D25442F8D00D770A4 /* NDIWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB05455725442F8D00D770A4 /* Build configuration list for PBXNativeTarget "NDIWrapper" */;
+			buildPhases = (
+				AB05454A25442F8D00D770A4 /* Sources */,
+				AB05454B25442F8D00D770A4 /* Frameworks */,
+				AB05454C25442F8D00D770A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NDIWrapper;
+			productName = NDIWrapper;
+			productReference = AB05454E25442F8D00D770A4 /* libNDIWrapper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB05454625442F8D00D770A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AB05454D25442F8D00D770A4 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = AB05454925442F8D00D770A4 /* Build configuration list for PBXProject "NDIWrapper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB05454525442F8D00D770A4;
+			productRefGroup = AB05454F25442F8D00D770A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB05454D25442F8D00D770A4 /* NDIWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB05454A25442F8D00D770A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB05455325442F8D00D770A4 /* NDIWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB05455525442F8D00D770A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB05455625442F8D00D770A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB05455825442F8D00D770A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 247V527KAQ;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NDIWrapper/wrapper",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB05455925442F8D00D770A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 247V527KAQ;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NDIWrapper/wrapper",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB05454925442F8D00D770A4 /* Build configuration list for PBXProject "NDIWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB05455525442F8D00D770A4 /* Debug */,
+				AB05455625442F8D00D770A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB05455725442F8D00D770A4 /* Build configuration list for PBXNativeTarget "NDIWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB05455825442F8D00D770A4 /* Debug */,
+				AB05455925442F8D00D770A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB05454625442F8D00D770A4 /* Project object */;
+}
