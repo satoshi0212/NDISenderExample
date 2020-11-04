@@ -26,7 +26,8 @@ NDI SDKをSwiftから使用しiPhoneで動作させる最小実装です。
 ## 本リポジトリの使い方
 
 1. [NDI SDK](https://www.ndi.tv/sdk/)サイト経由で取得するダウンロードリンクからSDKを入手しインストール(2020-10-27時点で `4.5.3` を使用)
-検証用: https://drive.google.com/file/d/1USWZTfIsry8hANdI3Ra5Hx1jKiYYPUq5/view?usp=sharing
+
+   検証用: https://drive.google.com/file/d/1USWZTfIsry8hANdI3Ra5Hx1jKiYYPUq5/view?usp=sharing
 
 2. `/Library/NDI SDK for Apple_/lib/iOS/libndi_ios.a` を `/NDISenderExample/NDIWrapper/NDIWrapper/wrapper/libndi_ios.a` にコピー
 
